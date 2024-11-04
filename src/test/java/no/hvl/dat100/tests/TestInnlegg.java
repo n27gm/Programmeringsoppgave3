@@ -26,6 +26,13 @@ public class TestInnlegg {
 	}
 	
 	@Test
+	public void testSetId() {
+	    TInnlegg innlegg = new TInnlegg(1,"Ole Olsen","23-10");
+	    innlegg.setId(2);
+	    assertEquals(2, innlegg.getId());
+	}
+
+	@Test
 	public void testSet() {
 		
 		TInnlegg innlegg = new TInnlegg(1,"Ole Olsen","23-10",7);
@@ -36,6 +43,7 @@ public class TestInnlegg {
 		assertEquals("Oline Olsen",innlegg.getBruker());
 		assertEquals("24-10",innlegg.getDato());
 	}
+	
 	
 	@Test
 	public void testdoLike() {

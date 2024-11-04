@@ -30,7 +30,11 @@ public abstract class Innlegg {
 	public String getBruker() {
 		return bruker;
 	}
-
+	
+	public void setId(int id) {
+		this.id = id;
+	}
+	
 	public void setBruker(String bruker) {
 		this.bruker = bruker;
 	}
