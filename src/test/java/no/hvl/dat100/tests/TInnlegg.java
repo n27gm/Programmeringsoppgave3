@@ -12,4 +12,8 @@ public class TInnlegg extends Innlegg {
 		super(id, bruker,dato,likes);
 	}
 
+    @Override
+    public String toString() {
+        return getId() + "\n" + getBruker() + "\n" + getDato() + "\n" + getLikes() + "\n";
+    }
 }
