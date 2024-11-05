@@ -17,7 +17,7 @@ public abstract class Innlegg {
         this.id = id;
         this.bruker = bruker;
         this.dato = dato;
-        this.likes = 0; // starter med 0 likes
+        this.likes = 0; 
     }
 
     public Innlegg(int id, String bruker, String dato, int likes) {
@@ -68,7 +68,6 @@ public abstract class Innlegg {
         return "Innlegg [id=" + id + ", bruker=" + bruker + ", dato=" + dato + ", likes=" + likes + "]";				
 	}
 	
-	// Metoden nedenfor er kun for valgfri oppgave 6
 	public String toHTML() {
         return "<div class='innlegg'>" +
                 "<p>Bruker: " + bruker + "</p>" +
@@ -76,4 +75,5 @@ public abstract class Innlegg {
                 "<p>Likes: " + likes + "</p>" +
                 "</div>";		
 	}
+	
 }

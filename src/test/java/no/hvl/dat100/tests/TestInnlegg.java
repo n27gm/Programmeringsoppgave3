@@ -77,4 +77,6 @@ public class TestInnlegg {
 		assertEquals("1\nOle Olsen\n23-10\n0\n",innlegg.toString());
 
 	}
+	
 }
+

@@ -17,3 +17,4 @@ public class TInnlegg extends Innlegg {
         return getId() + "\n" + getBruker() + "\n" + getDato() + "\n" + getLikes() + "\n";
     }
 }
+
