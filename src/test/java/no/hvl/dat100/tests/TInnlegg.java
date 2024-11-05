@@ -4,7 +4,7 @@ import no.hvl.dat100.oppgave1.Innlegg;
 
 public class TInnlegg extends Innlegg {
 	
-	public TInnlegg(int id, String bruker, String dato) {
+	public TInnlegg(int id, String bruker, String dato) { 
 		super(id, bruker,dato);
 	}
 
@@ -17,4 +17,7 @@ public class TInnlegg extends Innlegg {
         return getId() + "\n" + getBruker() + "\n" + getDato() + "\n" + getLikes() + "\n";
     }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> bdada424aa49ce2cdda34ad66197c194bc376890

@@ -73,7 +73,7 @@ public abstract class Innlegg {
                 "<p>Bruker: " + bruker + "</p>" +
                 "<p>Dato: " + dato + "</p>" +
                 "<p>Likes: " + likes + "</p>" +
-                "</div>";		
+                "</div>";		 
 	}
 	
 }
